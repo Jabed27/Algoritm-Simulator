@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".Activity2"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="109dp"
+
+        android:ems="10"
+        android:hint="inputs(numbers)with space"
+        android:inputType="text" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="vertical"
+        android:weightSum="72"
+        android:layout_marginTop="25dp">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="24"
+            android:background="#FF9100"
+            android:onClick="onclickButton2"
+            android:padding="5dp"
+            android:text="Bubble Sort"
+            android:textColor="#880E4F"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="24"
+            android:background="#FF9100"
+            android:onClick="onclickButton2"
+            android:padding="5dp"
+            android:text="Insertion Sort"
+            android:textColor="#880E4F"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="24"
+            android:background="#FF9100"
+            android:onClick="onclickButton2"
+            android:padding="5dp"
+            android:text="Selection Sort"
+            android:textColor="#880E4F"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="180dp"
+        android:background="@color/colorPrimary"
+
+        android:onClick="onclickButton"
+        android:text="Back"
+        android:textColor="#FFFEFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>
+</ScrollView>
